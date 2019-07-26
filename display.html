@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Simple jsTree</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            var json_object;
+
+            $.ajax({ url: 'FolderGeneration.php?repo_id=14',
+                data: {action: 'test'},
+                async:false,
+                type: 'post',
+                success: function(output) {
+                    alert(output);
+                      json_object = JSON.parse(output);
+                  }
+            });
+
+
+            // var jsondata = [
+            //                  {"id":"1","parent":"#","text":"root"},
+            //                {"id":"2","parent":"1","text":"F2"},
+            //                {"id":"4","parent":"2","text":"F4"},
+            //                {"id":"3","parent":"1","text":"F3"},
+            //                 {"id":"5","parent":"2","text":"F5"},
+            //               {"id":"6","text":"file","parent":"1"}
+
+
+
+
+            // ];
+
+            createJSTree(json_object);
+        });
+
+        function createJSTree(json_object) {            
+            
+            $('#SimpleJSTree').jstree({
+                'core': {
+                    'data': json_object
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <div id="SimpleJSTree"></div>
+</body>
+</html>
