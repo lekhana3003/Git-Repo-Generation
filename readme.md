@@ -16,4 +16,4 @@ File structure page
 
 YAML Configuration settings page
 
-[yaml Page](img/screenshots/Yaml configuration page.PNG?raw=true "Title")
+[yaml Page](img/screenshots/Yaml.PNG?raw=true "Title")
