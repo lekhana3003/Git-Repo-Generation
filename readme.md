@@ -16,4 +16,4 @@ File structure page
 
 YAML Configuration settings page
 
-[yaml Page](img/screenshots/Yaml.PNG?raw=true "Title")
+![yaml Page](https://raw.githubusercontent.com/lekhana3003/Git-Repo-Generation/master/img/screenshots/Yaml.PNG)
