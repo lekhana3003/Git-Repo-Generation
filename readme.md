@@ -4,15 +4,15 @@ The project is git repository template directory for git users to create their r
 ## Screenshots
 Index page of the project
 
-[Index Page](relative/path/to/img.jpg?raw=true "Title")
+![Index Page](https://raw.githubusercontent.com/lekhana3003/Git-Repo-Generation/master/img/screenshots/index.PNG)
 
 Home page of the project
 
-[Home Page](relative/path/to/img.jpg?raw=true "Title")
+![Home Page]https://raw.githubusercontent.com/lekhana3003/Git-Repo-Generation/master/img/screenshots/home.PNG)
 
 File structure page
 
-[file structure](relative/path/to/img.jpg?raw=true "Title")
+![file structure](https://raw.githubusercontent.com/lekhana3003/Git-Repo-Generation/master/img/screenshots/filestructure.PNG)
 
 YAML Configuration settings page
 
