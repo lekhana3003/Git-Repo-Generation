@@ -8,7 +8,7 @@ Index page of the project
 
 Home page of the project
 
-![Home Page]https://raw.githubusercontent.com/lekhana3003/Git-Repo-Generation/master/img/screenshots/home.PNG)
+![Home Page](https://raw.githubusercontent.com/lekhana3003/Git-Repo-Generation/master/img/screenshots/home.PNG)
 
 File structure page
 
